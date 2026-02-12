@@ -1,0 +1,96 @@
+/* src/App.css */
+
+.app-container {
+  max-width: 1200px;
+  width: 80vw;
+  margin: auto;
+  font-family: 'Times New Roman', Times, serif, system-ui, sans-serif;
+  padding: 0 16px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.todo-app {
+  background: #eee;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.todo-form {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 12px;
+}
+
+.todo-form input {
+  flex: 1;
+  padding: 8px;
+  border-radius: 8px;
+  border:0px;
+
+}
+
+.todo-form button {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  background: white;
+  cursor: pointer;
+}
+
+.todo-filters {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.todo-filters button {
+  padding: 4px 8px;
+  border: 1px solid #ccc;
+  background: white;
+  cursor: pointer;
+}
+
+.todo-filters .active {
+  background: #007bff;
+  color: white;
+  border-color: #007bff;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.todo-item .completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.delete-btn {
+  border: none;
+  background: transparent;
+  padding:0px 4px;
+  color: #d00;
+  border:1px solid #d00;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.todo-empty {
+  text-align: center;
+  color: #777;
+  padding: 8px 0;
+}
