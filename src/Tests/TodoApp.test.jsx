@@ -1,7 +1,7 @@
 // src/components/TodoApp.test.jsx
 import { describe, it, expect, vi, beforeEach } from 'vitest';
 import { render, screen, fireEvent } from '@testing-library/react';
-import TodoApp from './TodoApp';
+import TodoApp from '../components/TodoApp';
 
 describe('TodoApp - handleAddTodo', () => {
     beforeEach(() => {
